@@ -32,7 +32,7 @@ bezpo¶rednio.
 %build
 perl Makefile.PL
 
-%{__make} OPTIMIZE="%{rpmcflags}"
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
