@@ -30,7 +30,7 @@ bezpo¶rednio.
 %setup -q -n XML-SAXDriver-Sablotron-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 
 %{__make}
 
