@@ -3,14 +3,14 @@ Summary:	XML::SAXDriver::Sablotron perl module
 Summary(pl):	Modu³ perla XML::SAXDriver::Sablotron
 Name:		perl-XML-SAXDriver-Sablotron
 Version:	0.30
-Release:	1
+Release:	2
 License:	GPL or MPLv1.1
 Group:		Development/Languages/Perl
 Source0:	http://download-2.gingerall.cz/download/sablot/XML-SAXDriver-Sablotron-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-XML-SAX
 BuildRequires:	perl-XML-Sablotron
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -30,7 +30,8 @@ bezpo¶rednio.
 %setup -q -n XML-SAXDriver-Sablotron-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 
 %{__make}
 
@@ -46,6 +47,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README Changes
-%dir %{perl_sitelib}/XML/SAXDriver
-%{perl_sitelib}/XML/SAXDriver/Sablotron.pm
+%dir %{perl_vendorlib}/XML/SAXDriver
+%{perl_vendorlib}/XML/SAXDriver/Sablotron.pm
 %{_mandir}/man3/*
