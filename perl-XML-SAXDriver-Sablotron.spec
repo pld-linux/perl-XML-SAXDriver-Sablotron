@@ -28,7 +28,7 @@ emitted directly instead.
 
 %description -l pl
 XML::SAXDriver::Sablotron to sterownik SAX2 bazuj±cy na procesorze
-XSLT Sablotron. Wyj¶ciem transformacji XSLT jest strumien zdarzeñ
+XSLT Sablotron. Wyj¶ciem transformacji XSLT jest strumieñ zdarzeñ
 SAX2. Wynikowe drzewo nie jest budowane - zdarzenia SAX2 s± wywo³ywane
 bezpo¶rednio.
 
