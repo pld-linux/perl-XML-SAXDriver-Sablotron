@@ -32,7 +32,7 @@ bezpo¶rednio.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 
 %{__make}
 
