@@ -7,6 +7,7 @@ Release:	2
 License:	GPL or MPLv1.1
 Group:		Development/Languages/Perl
 Source0:	http://download-2.gingerall.cz/download/sablot/XML-SAXDriver-Sablotron-%{version}.tar.gz
+# Source0-md5:	785db592e5ca705b3732816cbbd1d1f3
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	perl-XML-SAX
 BuildRequires:	perl-XML-Sablotron
