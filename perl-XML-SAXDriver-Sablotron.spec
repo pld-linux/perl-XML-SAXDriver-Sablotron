@@ -1,7 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	XML::SAXDriver::Sablotron perl module
 Summary(pl):	Modu³ perla XML::SAXDriver::Sablotron
-Name:		perl-XML-Sablotron
+Name:		perl-XML-SAXDriver-Sablotron
 Version:	0.20
 Release:	1
 License:	GPL or MPLv1.1
