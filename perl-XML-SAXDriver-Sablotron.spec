@@ -2,7 +2,7 @@
 Summary:	XML::SAXDriver::Sablotron perl module
 Summary(pl):	Modu³ perla XML::SAXDriver::Sablotron
 Name:		perl-XML-SAXDriver-Sablotron
-Version:	0.20
+Version:	0.30
 Release:	1
 License:	GPL or MPLv1.1
 Group:		Development/Languages/Perl
