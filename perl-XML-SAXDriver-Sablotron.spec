@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	XML::SAXDriver::Sablotron perl module
-Summary(pl):	Modu≥ perla XML::SAXDriver::Sablotron
+Summary(pl.UTF-8):   Modu≈Ç perla XML::SAXDriver::Sablotron
 Name:		perl-XML-SAXDriver-Sablotron
 Version:	0.30
 Release:	2
@@ -26,11 +26,11 @@ processor. An XSLT transformation result is outputted as a stream of
 SAX2 events. The result tree is not build at all - SAX2 events are
 emitted directly instead.
 
-%description -l pl
-XML::SAXDriver::Sablotron to sterownik SAX2 bazuj±cy na procesorze
-XSLT Sablotron. Wyj∂ciem transformacji XSLT jest strumieÒ zdarzeÒ
-SAX2. Wynikowe drzewo nie jest budowane - zdarzenia SAX2 s± wywo≥ywane
-bezpo∂rednio.
+%description -l pl.UTF-8
+XML::SAXDriver::Sablotron to sterownik SAX2 bazujƒÖcy na procesorze
+XSLT Sablotron. Wyj≈õciem transformacji XSLT jest strumie≈Ñ zdarze≈Ñ
+SAX2. Wynikowe drzewo nie jest budowane - zdarzenia SAX2 sƒÖ wywo≈Çywane
+bezpo≈õrednio.
 
 %prep
 %setup -q -n XML-SAXDriver-Sablotron-%{version}
