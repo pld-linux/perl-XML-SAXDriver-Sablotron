@@ -1,7 +1,9 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
+
+%define		pdir	XML
+%define		pnam	SAXDriver-Sablotron
 %include	/usr/lib/rpm/macros.perl
 Summary:	XML::SAXDriver::Sablotron perl module
 Summary(pl.UTF-8):	Moduł perla XML::SAXDriver::Sablotron
@@ -13,9 +15,10 @@ Group:		Development/Languages/Perl
 #Source0Download:	http://www.gingerall.com/charlie/ga/xml/d_sab.xml
 Source0:	http://download-1.gingerall.cz/download/sablot/XML-SAXDriver-Sablotron-%{version}.tar.gz
 # Source0-md5:	785db592e5ca705b3732816cbbd1d1f3
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/XML-SAXDriver-Sablotron/
 BuildRequires:	perl-XML-SAX
 BuildRequires:	perl-XML-Sablotron
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
