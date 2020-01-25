@@ -4,7 +4,6 @@
 
 %define		pdir	XML
 %define		pnam	SAXDriver-Sablotron
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::SAXDriver::Sablotron perl module
 Summary(pl.UTF-8):	Moduł perla XML::SAXDriver::Sablotron
 Name:		perl-XML-SAXDriver-Sablotron
